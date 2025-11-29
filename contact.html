@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Cafe | Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="index.html">BLACK CAFE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container py-5">
+    <h2 class="fw-bold text-center mb-4">Contact Us</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4 class="mb-3">Get in Touch</h4>
+            <p>You can reach BLACK CAFE through our contact form or social media platforms.</p>
+
+            <ul class="list-unstyled">
+                <li><strong>Email:</strong> blackcafe@gmail.com</li>
+                <li><strong>Phone:</strong> 0912 345 6789</li>
+                <li><strong>Location:</strong> Manila, Metro Manila</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <form id="contactForm" class="p-4 shadow rounded bg-light">
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Your full name">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Your email address">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea id="message" rows="4" class="form-control" placeholder="Write your message"></textarea>
+                </div>
+
+                <button type="button" onclick="validateForm()" class="btn btn-dark w-100">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-3 bg-dark text-light">
+    <p class="m-0">© 2025 BLACK CAFE. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
